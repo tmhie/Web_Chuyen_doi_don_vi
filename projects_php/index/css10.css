@@ -1,0 +1,204 @@
+body{
+	background: #e3e5e8;	
+}
+#body{
+	width: 1040px;
+	margin: 0 auto;
+}
+#body #header a{
+	display: block;
+	height: 40px;
+	width: 22%;
+	margin-top: 1.5%;
+	margin-left: 2%;
+}
+#header{
+	background-color: black;
+	border: thin solid #abb078;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+}
+#header h3{
+	cursor: pointer;
+	margin-left: 2%;
+	margin-top: 1.5%;
+	font-family:cursive;
+	color: white;
+}
+#header h3 b{
+	font-family: verdana;
+	color: red;
+}
+#main #left{
+	width: 690px;
+	background: white;
+	float: left;
+	height: 100%;
+}
+#main #right{
+	width: 300px;
+	float: left;
+	height: 100%;
+}
+#main {
+	width: 1000px;
+	min-height: 1000px;
+	background: white;
+}
+.row{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+*{
+	list-style: none;
+	text-decoration: none;
+	margin:0px;
+	padding:0px;
+}
+.sidebar {
+ 	right: 15%;
+ 	width: 300px;
+ 	height: 487px;
+ 	background: #042331;
+ 	transition: all .5s ease;
+}
+.sidebar header {
+ 	font-size: 22px;
+  	color: white;
+  	line-height: 70px;
+  	text-align: center;
+  	background: #063146;
+  	user-select: none;
+}
+.sidebar ul a{
+  	display: block;
+  	height: 100%;
+  	width: 100%;
+  	line-height: 65px;
+  	font-size: 20px;
+  	color: white;
+  	padding-left: 40px;
+  	box-sizing: border-box;
+  	border-bottom: 2px solid black;
+  	border-top: 3px solid rgba(255,255,255,.1);
+  	transition: .4s;
+}
+ul li a:hover {
+  	padding-left: 60px;
+  	background: #8d8e8e;
+  	color: #000;
+}
+.sidebar ul a i{
+  	margin-right: 16px;
+}
+#main #right .menu_right header{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	background: #063146;
+	user-select: none;
+	font-family: cursive;
+}
+#main #right .menu_right header b{
+	color: red;
+}
+#main #left b{
+	font-size: 20px;
+	font-family:vertical-align: inherit;
+}
+#menu{
+	width: 45%;
+	height: 200px;
+	border: 1px solid #f1f1f1;
+}
+#menu .menu_top{
+	width: 100%;
+	height: 40px;
+	background-color: #68808f;
+	border-bottom: 1px #68808f;
+}
+#main #left #menu .menu_top a{
+	text-decoration: none;
+}
+.menu_top a i{
+	text-indent: 20px;
+	font-size: 20px;
+	padding-top: 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	line-height: 20px;
+}
+#main #left #menu .menu_top a i:hover{
+	background: black;
+	transition: .8s;
+	height: 40px; 
+}
+#main #left #menu .menu_bot a:hover{
+	font-family: cursive;
+	font-size: 18px;
+	transition: .4s;
+}
+#menu .menu_bot{
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 165px;
+}
+#main #left #menu .menu_bot a{
+	text-decoration: none;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size: 17px;
+	display: block;
+	border-bottom: 0.5px solid #f1f1f1;
+	margin:-5px 0px 0px 0px;
+}
+#footer{
+	background: black;
+	width: 100%;
+	height: 450px;
+	clear: left;
+}
+#footer .footer{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+	padding-top: 30px;
+}
+.text h5{
+	font-family: verdana;
+	color: #adb2b6;
+}
+.text2{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+}
+.text3{
+	color: gray;
+	font-family: Courier;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+}
+#main #left h1{
+	font-family: arial;
+	color: #154A7B;
+	margin-top: 5%;
+	font-size: 30px;
+}
+#main #left .list{
+	width: 93%;
+	font-size: 25px;
+	font-family: Verdana;
+	display: block;
+	background-color: #f1f1f1;
+	line-height: 40px;	
+}
+#main #left .list :hover{
+	background: linear-gradient(to top,#dfdfdf 0,#f1f1f1 100%);
+}
